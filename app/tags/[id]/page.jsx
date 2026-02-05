@@ -2,6 +2,17 @@ import list from "@/app/list";
 import Cards from "@/components/Cards";
 import { notFound } from "next/navigation";
 
+// Generate static paths for all unique tags
+export async function generateStaticParams() {
+  const allTags = new Set();
+  list.forEach(item => {
+    item.key.forEach(tag => allTags.add(tag));
+  });
+  return Array.from(allTags).map(tag => ({
+    id: tag,
+  }));
+}
+
 const TagsPage = async({ params }) => {
   const {id} = await params;
 

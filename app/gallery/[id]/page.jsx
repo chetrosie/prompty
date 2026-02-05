@@ -6,6 +6,13 @@ import CopySection from "./CopySelection";
 import Modal from "./Modal";
 import { notFound } from "next/navigation";
 
+// Generate static paths for all gallery items
+export async function generateStaticParams() {
+  return list.map((item) => ({
+    id: String(item.id),
+  }));
+}
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
   const render = list.find((f) => Number(f.id) === Number(id));

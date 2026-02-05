@@ -2,6 +2,17 @@ import list from "@/app/list";
 import Cards from "@/components/Cards";
 import { notFound } from "next/navigation";
 
+// Generate static paths for all unique categories
+export async function generateStaticParams() {
+  const allCategories = new Set();
+  list.forEach(item => {
+    allCategories.add(item.type.toLowerCase());
+  });
+  return Array.from(allCategories).map(category => ({
+    id: category,
+  }));
+}
+
 export default async function TagsPage({ params }) {
   const id = params.id.toLowerCase();          // /human → "human"
 
