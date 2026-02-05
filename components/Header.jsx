@@ -40,7 +40,7 @@ export default function Header() {
               <div style={{ width: "100%", maxWidth: 200, position: "relative" }}>
                 <Image
                     src={logo}            /* src, width, height, blurDataURL */
-                  alt="Prompty Logo"
+                  alt="AI Art Gallery"
                   sizes="(max-width: 991px) 150px, 200px"
                   placeholder="blur"
                   style={{ width: "100%", height: "auto" }}

@@ -142,6 +142,78 @@ const list = [
     prompt: "A realistic candid photo of a couple cuddling on a couch at night, wrapped in a blanket, watching a movie. Warm ambient light, popcorn on the table, soft expressions, very detailed shadows, fabric textures, and natural skin tones.",
     desc: "A candid moment of a couple cuddling under a blanket, watching a movie with warm light and popcorn on the table.",
     key: ["realistic","movie","couple","blanket","home"]
+  },
+  {
+    id: 17,
+    type:"landscape",
+    title: "Mystical Northern Lights",
+    image: "/gallery/17.png",
+    prompt: "Breathtaking aurora borealis dancing across a starry night sky over a frozen lake and snow-covered mountains. Vibrant green and purple lights reflecting on the ice surface. Long exposure photography style, ultra high definition, cinematic composition.",
+    desc: "Spectacular northern lights illuminating the arctic landscape with mirror-like reflections on frozen waters.",
+    key: ["landscape", "aurora", "night", "winter", "cinematic"]
+  },
+  {
+    id: 18,
+    type:"architecture",
+    title: "Futuristic Cyberpunk City",
+    image: "/gallery/18.png",
+    prompt: "Neo-Tokyo street scene at night, towering holographic advertisements, neon signs in Japanese characters, flying vehicles between skyscrapers, wet streets reflecting colorful lights. Blade Runner aesthetic, highly detailed, 8K resolution, volumetric lighting.",
+    desc: "A dazzling cyberpunk metropolis alive with neon lights, holograms, and futuristic technology.",
+    key: ["cyberpunk", "city", "neon", "futuristic", "night"]
+  },
+  {
+    id: 19,
+    type:"character",
+    title: "Ethereal Forest Spirit",
+    image: "/gallery/19.png",
+    prompt: "Ancient forest spirit emerging from an old oak tree, body made of twisted roots and glowing moss, eyes like burning amber, surrounded by fireflies and floating spores. Fantasy art style, magical atmosphere, soft ethereal lighting, highly detailed bark texture.",
+    desc: "A mystical guardian of the woods, half-tree, half-spirit, radiating ancient magic and wisdom.",
+    key: ["fantasy", "spirit", "forest", "magic", "character"]
+  },
+  {
+    id: 20,
+    type:"abstract",
+    title: "Liquid Dreams",
+    image: "/gallery/20.png",
+    prompt: "Abstract fluid art composition, swirling colors of deep blue, gold, and magenta mixing like cosmic nebulae, marble patterns, liquid metal textures, macro photography style, hyper-realistic details, vibrant contrast.",
+    desc: "Mesmerizing abstract artwork capturing the beauty of flowing liquids and cosmic color palettes.",
+    key: ["abstract", "fluid", "colorful", "art", "macro"]
+  },
+  {
+    id: 21,
+    type:"animal",
+    title: "Majestic White Tiger",
+    image: "/gallery/21.png",
+    prompt: "Close-up portrait of a majestic white Siberian tiger in a snowy bamboo forest, piercing blue eyes, detailed fur texture showing individual hairs, breath visible in cold air, National Geographic wildlife photography style, shallow depth of field.",
+    desc: "Stunning wildlife portrait capturing the raw power and beauty of a rare white tiger in its winter habitat.",
+    key: ["animal", "tiger", "wildlife", "winter", "portrait"]
+  },
+  {
+    id: 22,
+    type:"concept",
+    title: "Steampunk Time Machine",
+    image: "/gallery/22.png",
+    prompt: "Intricate steampunk time machine with brass gears, copper pipes, glowing crystal core, leather seats, Victorian-era craftsmanship mixed with fantastical technology. Workshop background with blueprints and tools. Highly detailed mechanical design, warm lighting.",
+    desc: "An elaborate Victorian-inspired time travel device showcasing the beauty of steampunk aesthetics and imagination.",
+    key: ["steampunk", "machine", "victorian", "concept", "mechanical"]
+  },
+  {
+    id: 23,
+    type:"food",
+    title: "Gourmet Sushi Platter",
+    image: "/gallery/23.png",
+    prompt: "Artisanal sushi platter arranged on black slate, featuring nigiri with glistening fish, colorful maki rolls, edible flowers, microgreens, wasabi rose, pickled ginger. Soft window lighting, shallow depth of field, food photography style, appetizing presentation.",
+    desc: "Exquisite Japanese cuisine presented as edible art, showcasing freshness and culinary craftsmanship.",
+    key: ["food", "sushi", "japanese", "gourmet", "photography"]
+  },
+  {
+    id: 24,
+    type:"scifi",
+    title: "Martian Colony Dome",
+    image: "/gallery/24.png",
+    prompt: "First human settlement on Mars, massive transparent geodesic domes covering green gardens and habitats, red Martian landscape stretching to horizon, Earth visible in dusty pink sky, rovers and solar panels nearby. Hard science fiction style, realistic rendering.",
+    desc: "Humanity's foothold on the Red Planet - a self-sustaining colony thriving beneath protective domes.",
+    key: ["scifi", "mars", "space", "colony", "future"]
   }
 ];
 
